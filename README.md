@@ -1,23 +1,92 @@
-# Divorce-Status-Prediction-EDA-and-ML
-This dataset contains marriages in India, capturing various socio-economic and demographic factors that may contribute to marital stability or divorce. It includes details such as age at marriage, type of marriage (arranged/love), education levels, income, caste/religion, family involvement, urban vs. rural living, number of children, and whether the marriage ended in divorce.
+# Divorce Status Prediction - Exploratory Data Analysis (EDA) & Machine Learning (ML)
 
-This dataset can be useful for sociologists, policymakers, and data scientists to analyze trends, identify risk factors, and develop insights into marriage patterns in India.
-Marriage Duration (Years) – How long the marriage lasted (if divorced).
+This project focuses on analyzing data related to divorce status to uncover insights, trends, and predictive models. The analysis is conducted using Python in a Jupyter Notebook environment.
 
-Age at Marriage – Age of the individuals when they got married.
+## 📊 Project Overview
 
-Arranged or Love Marriage – Type of marriage (Arranged, Love).
+The primary goals of this project are to:
 
-Education Level – Highest education of both partners (No Education, Primary, Secondary, Graduate, Postgraduate).
+- Explore and understand the divorce status dataset
+- Perform data cleaning and preprocessing
+- Conduct exploratory data analysis (EDA)
+- Apply machine learning models for predictive analysis
 
-Income Level (INR per month) – Household income.
+## 🚀 Features
 
-Caste or Religion – Hindu, Muslim, Sikh, Christian, Jain, etc.
+- **Data Cleaning:** Handling missing values, correcting data inconsistencies.
+- **Exploratory Data Analysis:** Summary statistics, correlation analysis, and trend identification.
+- **Machine Learning Models:** Classification models to predict divorce likelihood.
+- **Visualizations:** Graphs and charts for better understanding of the data.
 
-Urban or Rural – Whether the couple lived in an urban or rural area.
+## 📁 Project Structure
 
-Family Involvement – Level of family involvement (Low, Moderate, High).
+```
+├── Divorce Status Prediction.ipynb
+├── README.md
+└── data/
+    └── [your dataset files]
+```
 
-Children – Number of children.
+## 📦 Requirements
 
-Divorce Status – Whether the marriage led to a divorce (Yes, No)
+Make sure you have the following libraries installed:
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+
+You can install the necessary packages using:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+## 📂 Dataset
+
+The dataset used in this project contains detailed information about factors that may influence divorce status. Please ensure your dataset is placed in the `data/` directory.
+
+## 💻 Usage
+
+1. Clone the repository:
+   ```bash
+   git clone [your-repo-link]
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd divorce-status-prediction
+   ```
+3. Launch the Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+4. Open `Divorce Status Prediction.ipynb` and run the cells.
+
+## 📊 Sample Visualizations
+
+- Correlation heatmaps
+- Divorce likelihood trends
+- Predictive models for divorce status
+
+## 🤝 Contributing
+
+Feel free to fork this repository, make changes, and submit pull requests.
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🔗 Useful Links
+
+- [Jupyter Notebook Documentation](https://jupyter.org/)
+- [Pandas Documentation](https://pandas.pydata.org/)
+- [Matplotlib Documentation](https://matplotlib.org/)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [Scikit-learn Documentation](https://scikit-learn.org/)
+
+---
+
+Happy analyzing! 📈🔍
+
